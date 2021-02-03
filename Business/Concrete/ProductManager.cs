@@ -14,12 +14,7 @@ namespace Business.Concrete
         {
             _productDal = productDal;
         }
-
-        public IEnumerable<object> GetAllByCategoryId(int v)
-        {
-            throw new NotImplementedException();
-        }
-
+                
         public List<Product> GetAll()
         {
 

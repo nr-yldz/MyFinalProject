@@ -11,6 +11,7 @@ using Business.Constants;
 
 namespace Business.BusinessAspects.Autofac
 {
+
     public class SecuredOperation : MethodInterception
     {
         private string[] _roles;
